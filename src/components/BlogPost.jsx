@@ -24,7 +24,7 @@ export default function BlogPost() {
               <Typography variant="body1" paragraph>
                 {post.content}
               </Typography>
-              <Button component={RouterLink} to="/blog" variant="outlined">
+              <Button component={RouterLink} to="/lab-10-4" variant="outlined">
                 Back to Blog
               </Button>
             </CardContent>
@@ -34,7 +34,7 @@ export default function BlogPost() {
             <Typography variant="h5" component="h2" color="error" gutterBottom>
               Post not found
             </Typography>
-            <Button component={RouterLink} to="/blog" variant="outlined">
+            <Button component={RouterLink} to="/lab-10-4" variant="outlined">
               Back to Blog
             </Button>
           </div>

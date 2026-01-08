@@ -16,13 +16,13 @@ export default function BlogIndex() {
     <Container maxWidth="md">
       <Box sx={{ py: 4 }}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Blog
+          Blogs
         </Typography>
 
         <List>
           {posts.map((post) => (
             <React.Fragment key={post.id}>
-              <ListItemButton component={RouterLink} to={`/blog/${post.slug}`}>
+              <ListItemButton component={RouterLink} to={`/lab-10-4/${post.slug}`}>
                 <ListItemText primary={post.title} secondary={post.slug} />
               </ListItemButton>
               <Divider component="li" />
